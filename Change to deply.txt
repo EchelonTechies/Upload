@@ -1,0 +1,17 @@
+UPDATE SCB_Output_Template 
+SET Parameter3='Exposure to capital market/capital funds (%)'
+WHERE Parameter3 LIKE 'Exposure to%' AND TemplateID =54 
+
+UPDATE SCB_Output_Template 
+SET Parameter3='Priority sector advances (% of ANBC)'
+WHERE Parameter3 LIKE 'Priority Sector%' AND TemplateID =14 
+
+UPDATE SFB_Output_Template 
+SET Parameter3='Priority sector advances (% of ANBC)'
+WHERE Parameter3 LIKE 'Priority Sector%' 
+
+UPDATE SFB_Output_Template 
+SET Parameter3='Exposure to capital market/capital funds (%)'
+WHERE Parameter3 LIKE 'Exposure to sensitive%'
+
+ 
