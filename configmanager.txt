@@ -1,0 +1,1 @@
+<add key="LogFolder" value="C:\Echelon\Code\RiskModel\IndRa.RiskModel\Log\ErrorLog.txt"/>
